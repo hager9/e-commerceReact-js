@@ -34,8 +34,8 @@ export default function OnlinePayment() {
     
     async function addressSubmit(values) {
         setIsLoading(true);                        
-        let response = await onlinePayment(cartId, 'https://hager9.github.io/e-commerceReact-js/#/', values);
-        console.log(response)
+        let response = await onlinePayment(cartId, 'https://hager9.github.io/e-commerceReact-js', values);
+    
         if (response.status === 'success') {
             setIsLoading(false);
             window.location.href = response.session.url;
