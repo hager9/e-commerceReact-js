@@ -58,7 +58,8 @@ export default function ProductDetails() {
       };
     return <>
         {isLoading ? <Loading /> : <>
-        {data?.data.data ? <div className="row py-2 align-items-center">
+            <div className="container">
+            {data?.data.data ? <div className="row py-2 align-items-center">
          <Helmet>
                  <title>{data?.data.data.title }</title>
                  <meta name="description" content={data?.data.data.description} />
@@ -96,6 +97,8 @@ export default function ProductDetails() {
                  </div>
              </div>
          </div> : ''}
+            </div>
+       
         </>
          
         }

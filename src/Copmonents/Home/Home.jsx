@@ -11,9 +11,12 @@ export default function Home() {
           <Helmet>
                 <title>home</title>
                 <meta name="description" content="freshCart home page" />
-            </Helmet>
+        </Helmet>
+        <div className="container">
         <MainSlider/>
         <CategorySlider />
         <FeaturedProducts />
+        </div>
+        
     </>
 }
