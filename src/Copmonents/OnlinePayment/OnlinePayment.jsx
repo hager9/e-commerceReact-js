@@ -12,7 +12,7 @@ export default function OnlinePayment() {
 
     let {setCartProducts,setTotalCartPrice,setNumOfCartItems, cartId } = useContext(CartContext);
     const [isLoading, setIsLoading] = useState(false);
-    let url = window.location.protocol + window.location.host;
+    let url = window.location.href;
     console.log(url)
     async function onlinePayment(cartId, url, values) {
         try {
