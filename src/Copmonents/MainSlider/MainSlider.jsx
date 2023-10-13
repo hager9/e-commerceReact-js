@@ -21,11 +21,14 @@ export default function MainSlider() {
     return <>
         <div className="container my-3">
         <div className="row g-0 justify-content-center">
-            <div className="col-md-3">
-            <Slider {...settings}>
+                <div className="col-md-3">
+                    <div className="item">
+                    <Slider {...settings}>
             <img src={slider1} alt="main slider backpack image" className="w-100"/>
             <img src={slider2} alt="main slider baby seat image" className="w-100"/>
         </Slider>
+                    </div>
+           
             </div>
             <div className="col-md-3 mt-md-0 mt-4">
                 <img src={blog1} alt="main slider bags image" className="w-100 heigth"/>

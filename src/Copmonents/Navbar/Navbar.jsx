@@ -75,10 +75,10 @@ export default function Navbar() {
                
               </> : <>
                   <li className="nav-item">
-                          <NavLink className="nav-link rounded" to="/login">Login</NavLink>
+                          <NavLink className="nav-link rounded px-3" to="/login">Login</NavLink>
                   </li>
                   <li className="nav-item">
-                          <NavLink className="nav-link rounded" to="/register">Register</NavLink>
+                          <NavLink className="nav-link rounded px-3" to="/register">Register</NavLink>
                   </li>
                  
             </>}

@@ -64,10 +64,13 @@ export default function ProductDetails() {
                  <title>{data?.data.data.title }</title>
                  <meta name="description" content={data?.data.data.description} />
              </Helmet>
-                <div className="col-md-4">
-             <Slider {...settings}>
+                    <div className="col-md-4">
+                        <div className="item">
+                        <Slider {...settings}>
                      {data?.data.data.images.map((img) => <img key={data?.data.data.id} src={ img } alt={data?.data.data.title} className="w-100" />)}
          </Slider>
+                        </div>
+            
              </div>
              <div className="col-md-8">
                     <div className="item py-2">
