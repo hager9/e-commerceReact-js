@@ -35,7 +35,7 @@ export default function OnlinePayment() {
     
     async function addressSubmit(values) {
         setIsLoading(true);                        
-        let response = await onlinePayment(cartId, 'https://hager9.github.io/e-commerceReact-js/#' , values);
+        let response = await onlinePayment(cartId, 'https://hager9.github.io/e-commerceReact-js' , values);
     
         if (response.status === 'success') {
             setIsLoading(false);
@@ -43,6 +43,7 @@ export default function OnlinePayment() {
             setCartProducts(null);
             setTotalCartPrice(0);
             setNumOfCartItems(0);
+
         } else {
             toast.error('Error Occured');
         }
