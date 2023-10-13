@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/e-commerceReact-js/static/css/main.169b6ff6.css",
-    "main.js": "/e-commerceReact-js/static/js/main.3ce7a948.js",
+    "main.js": "/e-commerceReact-js/static/js/main.79b6ff2c.js",
     "static/media/malvestida-u79wy47kvVs-unsplash.jpg": "/e-commerceReact-js/static/media/malvestida-u79wy47kvVs-unsplash.0f9f29cd417d0765a7ed.jpg",
     "static/media/brooke-lark-W1B2LpQOBxA-unsplash.jpg": "/e-commerceReact-js/static/media/brooke-lark-W1B2LpQOBxA-unsplash.ab30ff8a610179443636.jpg",
     "static/media/kelly-sikkema-1Pgq9ZpIatI-unsplash.jpg": "/e-commerceReact-js/static/media/kelly-sikkema-1Pgq9ZpIatI-unsplash.c5dd8cae605674500963.jpg",
@@ -28,10 +28,10 @@
     "static/media/slick.woff": "/e-commerceReact-js/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/e-commerceReact-js/index.html",
     "main.169b6ff6.css.map": "/e-commerceReact-js/static/css/main.169b6ff6.css.map",
-    "main.3ce7a948.js.map": "/e-commerceReact-js/static/js/main.3ce7a948.js.map"
+    "main.79b6ff2c.js.map": "/e-commerceReact-js/static/js/main.79b6ff2c.js.map"
   },
   "entrypoints": [
     "static/css/main.169b6ff6.css",
-    "static/js/main.3ce7a948.js"
+    "static/js/main.79b6ff2c.js"
   ]
 }
