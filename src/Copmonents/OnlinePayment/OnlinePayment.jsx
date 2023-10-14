@@ -13,13 +13,14 @@ export default function OnlinePayment() {
     let {setCartProducts,setTotalCartPrice,setNumOfCartItems, cartId } = useContext(CartContext);
     
     const [isLoading, setIsLoading] = useState(false);
-    async function onlinePayment(cartId, url, values) {
+    async function onlinePayment(cartId, values) {
         try {
-            let { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=${url}`, {
+            let { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}`, {
                 shippingAddress: values
             },
                 {
-                    headers:{ token : localStorage.getItem("userToken")}
+                    headers: { token: localStorage.getItem("userToken") },
+                    params: { url: "https://hager9.github.io/e-commerceReact-js/#" }
                 });
             return data;
         } catch (error) {
@@ -35,7 +36,7 @@ export default function OnlinePayment() {
     
     async function addressSubmit(values) {
         setIsLoading(true);
-        let response = await onlinePayment(cartId, 'https://hager9.github.io/e-commerceReact-js/#' , values);
+        let response = await onlinePayment(cartId, values);
     
         if (response.status === 'success') {
             setIsLoading(false);
