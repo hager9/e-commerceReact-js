@@ -57,3 +57,25 @@ This is a fully responsive e-commerce website built with React.js, offering a se
 - Check out your cart, manage product quantities, and choose your preferred payment method (cash or online).
 - Review your wishlist, and easily transfer items to your cart.
 
+## Screenshots
+- **Home Page**:  
+  ![Home Page](https://github.com/hager9/e-commerceReact-js/blob/main/public/Images/Screenshot%202024-10-10%20003852.png)
+  <br>
+  ![Home Page](https://github.com/hager9/e-commerceReact-js/blob/main/public/Images/Screenshot%202024-10-10%20004007.png)
+
+
+- **Product Details Page**: 
+  ![Product Details Page](https://github.com/hager9/e-commerceReact-js/blob/main/public/Images/Screenshot%202024-10-10%20004229.png)
+
+
+- **Cart Page**:  
+  ![Cart Page](https://github.com/hager9/e-commerceReact-js/blob/main/public/Images/Screenshot%202024-10-10%20004033.png)
+
+
+
+- **Wishlist Page**: 
+  ![Wishlist Page](https://github.com/hager9/e-commerceReact-js/blob/main/public/Images/Screenshot%202024-10-10%20004440.png)
+
+
+- **Orders Page**: 
+  ![Orders Page](https://github.com/hager9/e-commerceReact-js/blob/main/public/Images/Screenshot%202024-10-10%20004510.png)
