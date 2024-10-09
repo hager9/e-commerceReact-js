@@ -2,6 +2,8 @@
 
 This is a fully responsive e-commerce website built with React.js, offering a seamless shopping experience with user-friendly features like product browsing, cart management, and secure checkout. The platform is designed to enhance user interaction with smooth animations, in-app loading, and scalable architecture.
 
+## Demo
+  https://hager9.github.io/e-commerceReact-js/#/login
 
 ## Features
 - **User Authentication:** Register, Login, Forgot Password, and Reset Password functionalities.
